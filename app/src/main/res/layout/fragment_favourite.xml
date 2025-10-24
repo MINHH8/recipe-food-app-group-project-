@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment_ui.FavouriteFragment"
+    android:background="@android:color/transparent">
+
+    <!-- RecyclerView to display the favorite meals -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_favorites"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"/>
+</FrameLayout>

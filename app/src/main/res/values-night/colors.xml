@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="adaptive_text_color">#FFFFFF</color>
+    <color name="bottom_nav_unchecked_color">#FFFFFF</color>
+    <color name="text_color">#FFFFFF</color>
+    <color name="bottom_nav_background">#5a5a5a</color>
+    <color name="item_meal_background">#5a5a5a </color>
+    <color name="nav_selected_background">#8d8d8d</color>
+    <color name="nav_selected_tint">#4AF9E2</color>
+    <color name="search_background">#808080</color>
+    <color name="about_icon">#FFFFFF</color>
+    <color name="darkmode_icon">#F3EF01</color>
+    <color name="search_icon">#FFFFFF</color>
+</resources>

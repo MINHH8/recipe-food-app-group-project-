@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="6dp"
+    android:foreground="?attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true"
+    app:cardBackgroundColor="@android:color/white">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp">
+            <ImageView
+                android:id="@+id/imgMeal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/app_name" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/txtMealName"
+            android:background="@color/item_meal_background"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:padding="10dp"
+            android:text="@string/loading"
+            android:textStyle="bold|italic"
+            android:textColor="@color/text_color"
+            android:textSize="20sp"
+            android:ellipsize="end"
+            android:maxLines="2" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
